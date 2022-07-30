@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 20. Jul 2022 um 14:04
+-- Erstellungszeit: 30. Jul 2022 um 08:31
 -- Server-Version: 10.4.24-MariaDB
 -- PHP-Version: 8.1.6
 
@@ -555,7 +555,20 @@ INSERT INTO `quotes` (`id`, `quotetext`, `author`, `job`, `advertising`, `date`)
 (510, 'Blinder Autoritätsglaube ist der größte Feind der Wahrheit.', 'Albert Einstein', 'Physiker', 'false', 'Freitag, 15. Juli 2022 um 09:31 Uhr'),
 (511, 'Wir sind unsere Entscheidungen.', 'Jean-Paul Satre', 'Schriftsteller', 'false', 'Freitag, 15. Juli 2022 um 09:32 Uhr'),
 (512, 'Die einzige Freiheit im Leben ist es, eigene Entscheidungen zu treffen.', 'Danilo Ulf Mattick', 'Universalgenie', 'false', 'Freitag, 15. Juli 2022 um 09:33 Uhr'),
-(513, 'Du kannst bei einem Überfall Deine Gebete an \"Spiderman\" richten. Auf dem Schlachtfeld kurz vor der totalen Niederlage \"Ironman\" herbeisehnen. Es wird das Gleiche passieren, was geschieht, wenn Du auf Gott hoffst. — Nichts!', 'Danilo Ulf Mattick', 'Universalgenie', 'false', 'Samstag, 16. Juli 2022 um 08:31 Uhr');
+(513, 'Du kannst bei einem Überfall Deine Gebete an \"Spiderman\" richten. Auf dem Schlachtfeld kurz vor der totalen Niederlage \"Ironman\" herbeisehnen. Es wird das Gleiche passieren, was geschieht, wenn Du auf Gott hoffst. — Nichts!', 'Danilo Ulf Mattick', 'Universalgenie', 'false', 'Samstag, 16. Juli 2022 um 08:31 Uhr'),
+(514, 'Wenn wir eine Situation nicht mehr ändern können, sind wir herausgefordert, uns selbst zu ändern.', 'Viktor Fankl', 'Arzt', 'false', 'Samstag, 23. Juli 2022 um 09:32 Uhr'),
+(515, 'Verwechseln Sie Aktivität nicht mit Leistung.', 'John Wooden', 'Sportler', 'false', 'Samstag, 23. Juli 2022 um 09:33 Uhr'),
+(516, 'Ich kann niemanden etwas beibringen. Ich kann sie nur zum Nachdenken bringen.', 'Socrates', 'Philosoph', 'false', 'Samstag, 23. Juli 2022 um 09:35 Uhr'),
+(517, 'Die Seele wird mit der Farbe ihrer Gedanken eingefärbt.', 'Marc Aurelius', 'Philosoph', 'false', 'Samstag, 23. Juli 2022 um 09:36 Uhr'),
+(518, 'Schönheit ist nur oberflächlich, aber hässlich geht bis auf die Knochen.', 'Dorothy Parker', 'Schriftsteller', 'false', 'Samstag, 23. Juli 2022 um 09:36 Uhr'),
+(519, 'Das Ziel einer Auseinandersetzung sollte nicht der Sieg sein, sondern der Fortschritt.', 'Joseph Joubert', 'Schriftsteller', 'false', 'Donnerstag, 28. Juli 2022 um 15:01 Uhr'),
+(520, 'Gehorche und arbeite hart, fühle keinen Zorn. Nur sympathie für die Oberschicht! Es gibt keine Chance, Dinge zu ändern, weil ich geboren wurde in einer Trauerhalle.', 'Blind Guardian', 'Musikkapelle', 'false', 'Donnerstag, 28. Juli 2022 um 15:03 Uhr'),
+(521, 'Jeden Tag sorgen die Menschen dafür, dass die Haare ordentlich sitzen; warum tun sie das nicht auch mit ihrem Herzen?', 'Che Guevara', 'Politiker', 'false', 'Freitag, 29. Juli 2022 um 13:24 Uhr'),
+(522, 'Der Faschismus von heute hat äußerlich nichts mit dem aus der Vergangenheit zu tun. Keine Uniformen, Stechschritt und erhobener Gruß. Nein, er ist modern, raffiniert verpackt und wird mit PR verkauft [...] aber der Geist, der dahinter steckt, die totale Kontrolle und Ausbeutung, die Zensur, die Mediengleichschaltung, die Lügen, die Unterdrückung und die Angriffskriege, ... die Resultate ... sind dieselben. Die meisten Menschen sehen das nicht und sind durch die Propaganda völlig geblendet.', 'Umberto Eco', 'Schriftsteller', 'false', 'Freitag, 29. Juli 2022 um 13:25 Uhr'),
+(523, 'Das schlimmste, was einem kapitalistischen Wirtschaftssystem passieren kann, sind Menschen, die mit wenigen Dingen dauerhaft zufrieden sind. Deswegen wird versucht, ihnen Bedürfnisse einzutrichtern, die sie nicht haben. Das führt dazu, dass sie mit dem, was sie haben, nicht zufrieden sind. Es gibt den Widerspruch zwischen der Art und Weise, wie unsere Wirtschaft funktioniert, und dem, was uns glücklich macht.', 'Richard Precht', 'Philosoph', 'false', 'Samstag, 30. Juli 2022 um 08:26 Uhr'),
+(524, 'Denn die reich werden wollen, die fallen in Versuchung und Verstrickung und in viele törichte und schädliche Begierden, welche die Menschen versinken lassen in Verderben und Verdammnis.', 'Timotheus', 'Heiliger', 'false', 'Samstag, 30. Juli 2022 um 08:26 Uhr'),
+(525, 'Meine Kinder haben es sich nicht ausgesucht, zu leben. Ich habe mir ausgesucht, Kinder zu haben. Sie schulden mir nichts, ich schulde ihnen alles!', 'Elon Musk', 'Unternehmer', 'false', 'Samstag, 30. Juli 2022 um 08:28 Uhr'),
+(526, 'Demokratische Medien würden jedem Bürger die Möglichkeit bieten seine Gedanken einem breiten Publikum zu präsentieren und gegen die vorherrschende Meinung überhaupt eine Chance zu haben, dass es Thema in einem Diskurs ist.', 'Danilo Ulf Mattick', 'Universalgenie', 'false', 'Samstag, 30. Juli 2022 um 08:30 Uhr');
 
 --
 -- Indizes der exportierten Tabellen
@@ -575,7 +588,7 @@ ALTER TABLE `quotes`
 -- AUTO_INCREMENT für Tabelle `quotes`
 --
 ALTER TABLE `quotes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=514;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=527;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
