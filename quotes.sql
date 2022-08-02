@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 30. Jul 2022 um 08:31
+-- Erstellungszeit: 02. Aug 2022 um 21:42
 -- Server-Version: 10.4.24-MariaDB
 -- PHP-Version: 8.1.6
 
@@ -568,7 +568,15 @@ INSERT INTO `quotes` (`id`, `quotetext`, `author`, `job`, `advertising`, `date`)
 (523, 'Das schlimmste, was einem kapitalistischen Wirtschaftssystem passieren kann, sind Menschen, die mit wenigen Dingen dauerhaft zufrieden sind. Deswegen wird versucht, ihnen Bedürfnisse einzutrichtern, die sie nicht haben. Das führt dazu, dass sie mit dem, was sie haben, nicht zufrieden sind. Es gibt den Widerspruch zwischen der Art und Weise, wie unsere Wirtschaft funktioniert, und dem, was uns glücklich macht.', 'Richard Precht', 'Philosoph', 'false', 'Samstag, 30. Juli 2022 um 08:26 Uhr'),
 (524, 'Denn die reich werden wollen, die fallen in Versuchung und Verstrickung und in viele törichte und schädliche Begierden, welche die Menschen versinken lassen in Verderben und Verdammnis.', 'Timotheus', 'Heiliger', 'false', 'Samstag, 30. Juli 2022 um 08:26 Uhr'),
 (525, 'Meine Kinder haben es sich nicht ausgesucht, zu leben. Ich habe mir ausgesucht, Kinder zu haben. Sie schulden mir nichts, ich schulde ihnen alles!', 'Elon Musk', 'Unternehmer', 'false', 'Samstag, 30. Juli 2022 um 08:28 Uhr'),
-(526, 'Demokratische Medien würden jedem Bürger die Möglichkeit bieten seine Gedanken einem breiten Publikum zu präsentieren und gegen die vorherrschende Meinung überhaupt eine Chance zu haben, dass es Thema in einem Diskurs ist.', 'Danilo Ulf Mattick', 'Universalgenie', 'false', 'Samstag, 30. Juli 2022 um 08:30 Uhr');
+(526, 'Demokratische Medien würden jedem Bürger die Möglichkeit bieten seine Gedanken einem breiten Publikum zu präsentieren und gegen die vorherrschende Meinung überhaupt eine Chance zu haben, dass es Thema in einem Diskurs ist.', 'Danilo Ulf Mattick', 'Universalgenie', 'false', 'Samstag, 30. Juli 2022 um 08:30 Uhr'),
+(527, 'Vertrauen beginnt mit der Wahrheit und endet mit der Wahrheit.', 'Santosh Kalwar', 'Wissenschaftler', 'false', 'Sonntag, 31. Juli 2022 um 13:04 Uhr'),
+(528, 'Für einen großen Verstand ist nichts zu klein.', 'Arthur Conan Doyle', 'Schriftsteller', 'false', 'Sonntag, 31. Juli 2022 um 13:06 Uhr'),
+(529, 'Die EU löst keine Probleme, sie ist ein Problem. Seit dem Ende des real existierenden Sozialismus, zu dem es nach Meinung seiner Repräsentanten ebenfalls keine Alternativen gab, ist die EU der massivste Versuch, die Bürger zu entmündigen und die Gesellschaft zu Entdemokratisieren.', 'Henryk M. Broder', 'Journalist', 'false', 'Montag, 1. August 2022 um 15:47 Uhr'),
+(530, 'Die Löwenzahnwurzel ist in der Lage, 98 % der Krebszellen innerhalb von 48 Stunden abzutöten. Nicht nur das, es wirkt auch als starker entzündungshemmender, immunstärkender, antioxidativer und Organentgiftungsfilter.', 'Her Ballaw', 'Arzt', 'false', 'Montag, 1. August 2022 um 15:49 Uhr'),
+(531, 'Der Sinn moderner Propaganda besteht nicht nur darin, falsch zu informieren oder eine Agenda voranzutreiben. Es bedeutet, ihr kritisches Denken zu erschöpfen, die Wahrheit zu vernichten.', 'Garri Kimowitsch Kasparow', 'Genie', 'false', 'Montag, 1. August 2022 um 15:52 Uhr'),
+(532, 'Deutsche Politiker wollen nicht begreifen, obwohl es US-Strategen immer wieder sagen, dass die US-Politik seit 100 Jahren das Ziel hat, das Zusammengehen von deutscher Technik und russischen Rohstoffen zu verhindern. Es ist logisch: Das erklärte Ziel, die einzige Weltmacht zu bleiben, verlangt, dass man nicht nur die chinesische oder russische, sondern auch die deutsche Wirtschaft schwächt, damit keine Konkurrenz zu stark wird.', 'Oskar Lafontaine', 'Politiker', 'false', 'Montag, 1. August 2022 um 15:54 Uhr'),
+(533, 'Bevor unsere weißen Brüder kamen, um zivilisierte Menschen aus uns zu machen, hatten wir keine Gefängnisse. Aus diesem Grund hatten wir auch keine Verbrecher. Wir hatten weder Schlösser noch Schlüssel, und deshalb gab es bei uns keine Diebe. Wenn jemand so arm war, dass er kein Pferd besaß, kein Zelt oder keine Decke, so bekam er all dies geschenkt.', 'Archie Fire Lame Deer', 'Arzt', 'false', 'Dienstag, 2. August 2022 um 14:07 Uhr'),
+(534, 'Was ist das Problem der Welt? — Ihr zivilisierten Menschen habt den Kontakt zu eurem Geist und zur Natur verloren.', 'Ovar der Philosoph', 'Philosoph', 'false', 'Dienstag, 2. August 2022 um 14:08 Uhr');
 
 --
 -- Indizes der exportierten Tabellen
@@ -588,7 +596,7 @@ ALTER TABLE `quotes`
 -- AUTO_INCREMENT für Tabelle `quotes`
 --
 ALTER TABLE `quotes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=527;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=535;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
